@@ -1,0 +1,97 @@
+#userGrade{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      width: 10%;
+      margin: auto;
+      justify-items: center;
+      margin-top: 10rem;
+      border: 1px red solid;
+      border-radius: 5px;
+      padding: 1rem;
+}
+
+input{
+      height: 2rem;
+      width: 100%;
+}
+button{ 
+      padding: 0.5rem;
+      width: 10%;
+      text-shadow: 10cqb;
+}
+
+#getOutline{
+      width: 100%;
+}
+
+body{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.noted{
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      height: 40vh;
+      border: 1px solid lightpink;
+      border-radius: 10px;
+      align-items: center;
+      justify-items: center;
+      padding: 10px;
+      margin: auto;
+      margin-top: 6rem;
+      background-image: url("backGround.avif");
+      background-repeat: no-repeat;
+      background-position: cover;
+      font-weight: bold;
+}
+
+.point{
+      margin: 2rem;
+}
+
+#count-el{
+      margin-top: 4rem;
+}
+
+#count-el{
+      text-decoration: dashed;
+}
+.btn, .btn-1{
+      width: 10rem;
+      height: 2.5rem;
+      border-radius: 10px;
+      border: 1px solid lightblue;
+      background-color: brown;
+      color: bisque;
+}
+.btn-1{
+      background-color: green;
+}
+
+.body-btn{
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+      margin-top: 2px;
+}
+.img-ran{
+      display: flex;
+      align-items: center;
+      width: fit-content;
+      border: solid 1px lightgoldenrodyellow;
+      border-radius: 10px;
+}
+#save-el{
+      font-size: large;
+      text-decoration: solid;
+      letter-spacing: normal;
+}
+.num{
+      display: flex;
+      flex-direction: row;
+      gap: 5rem;
+}
+.text-png{
+      color: goldenrod;
+}
